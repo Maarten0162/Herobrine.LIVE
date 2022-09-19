@@ -1,9 +1,18 @@
 
-html,body {
-    background-image: url(/assets/imag/bg.png);
+@font-face {
+    font-family: "Minecraft";
+    src: url('/assets/fonts/Minecraftia-Regular.ttf');
+}
+
+body {
+    background-image: url('/assets/img/bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Minecraft', monospace;
 }
 
 .title {
