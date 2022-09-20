@@ -1,9 +1,4 @@
 
-@font-face {
-    font-family: "Minecraft";
-    src: url('/assets/fonts/Minecraftia-Regular.ttf');
-}
-
 body {
     background-color: #222222;
     background-size: cover;
@@ -25,10 +20,24 @@ body {
     width: 160%;
     text-align: center;
     font-weight: normal;
+    text-shadow: 2px 2px #4343ce;
+    width: 100%;
+}
+
+.text1 {
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size:  xx-large;
+    color: #fff;
+    width: 160%;
+    text-align: center;
+    font-weight: normal;
     text-shadow: 2px 2px #1515b9;
 }
 
-.subtitle {
+.text2 {
     -webkit-user-select: none;       
     -moz-user-select: none;
     -ms-user-select: none;
@@ -41,7 +50,7 @@ body {
     text-shadow: 2px 2px #1515b9;
 }
 
-.animated-text {
+.animated-text1 {
     -webkit-user-select: none;       
     -moz-user-select: none;
     -ms-user-select: none;
@@ -59,7 +68,7 @@ body {
     float: left;
     height: -120px;
     text-shadow: 2px 2px #1515b9;
-
+    
 }
 
 ul{
