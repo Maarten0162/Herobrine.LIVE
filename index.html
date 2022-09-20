@@ -12,7 +12,7 @@
 </head>
 <body>
    
-    <h1 class="title">Herobrine's Website</h1>
+    <h1 class="title">Herobrine's Website </h1>
 
     <div class="menu">
         <ul>
@@ -23,6 +23,30 @@
         </ul>
 
     </div>
+
+    <div class="hero">
+
+        <img src="/assets/img/hero-image.png" class="hero-image" draggable="false">
+
+        <div class="hero-text">
+            <h1 class="title">Hello, I am Herobrine,</h1>
+            <p class="subtitle">and right now</p>
+            <p class="animated-text">I'm <span class="auto-type"></span></p>
+        </div>
+    </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+
+        var typed = new Typed(".auto-type", {
+            strings: ["Coding", "Designing", "Sleeping", "Gaming"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+
+    </script>
+
 </body>
 </html>
