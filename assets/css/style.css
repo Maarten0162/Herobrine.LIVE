@@ -108,7 +108,7 @@ ul li a{
 
 ul li a:hover{
     color: #7676f0;
-    transition: .9s;
+    transition: 250ms;
 }
 
 ul li a:after{
