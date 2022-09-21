@@ -70,7 +70,7 @@ body {
     user-select: none;
     font-size:  350%;
     color: white;
-    width: 170%;
+    width: 150%;
     text-align: center;
     font-weight: normal;
     text-shadow: 2px 2px #1515b9;
@@ -184,6 +184,8 @@ span{
     text-shadow: 2px 2px #d66f1b00;
     font-weight: bold;
 }
+
+
 
 /* NON-SELECTABLE TEXT*/
 /* -webkit-user-select: none;  */
