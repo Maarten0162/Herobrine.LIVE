@@ -24,6 +24,19 @@ body {
     width: 100%;
 }
 
+.coming-soon{
+    -webkit-user-select: none;       
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-size:  xx-large;
+    color: white;
+    width: 200%;
+    text-align: center;
+    font-weight: normal;
+    width: 100%;
+}
+
 .text1 {
     -webkit-user-select: none;       
     -moz-user-select: none;
@@ -67,7 +80,7 @@ body {
     width: 400px;
     float: left;
     height: -120px;
-    text-shadow: 2px 2px #1515b9;
+    font-weight: bold;
     
 }
 
@@ -89,6 +102,34 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #fff;
+    position: relative;
+    padding: 16px 0 5px;
+}
+
+ul li a:hover{
+    color: #7676f0;
+    transition: .9s;
+}
+
+ul li a:after{
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%) scaleX(0) ;
+    -webkit-transform: translateX(-50%) scaleX(0) ;
+    transform-origin: 50% 50%;
+    -webkit-transform-origin: 50% 50%;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.9);
+    transition: transform 250ms;
+    -webkit-transition: transform 250ms;
+}
+
+ul li a:hover:after{
+    transform: translateX(-50%) scaleX(1);
+    -webkit-transform: translateX(-50%) scaleX(1);
 }
 
 .hero-image{
