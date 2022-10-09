@@ -246,14 +246,12 @@ span{
 
 .eight-bit__social .btn.github .fab {
   color: #171515;
-  cursor: "pointer";
 }
 
 .eight-bit__social .btn.github span,
 .eight-bit__social .btn.github span::before,
 .eight-bit__social .btn.github span::after {
   background: #171515;
-  cursor: "pointer"
 }
 
 .eight-bit__social .btn.spotify .fab {
@@ -499,7 +497,6 @@ span{
   -webkit-transition: all 0.325s steps(8);
   transition: all 0.325s steps(8);
 }
-
 
 /* NON-SELECTABLE TEXT*/
 /* -webkit-user-select: none;  */
